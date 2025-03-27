@@ -1,6 +1,5 @@
 from sys import argv, exit
 from stats import get_num_words, count_characters, sort_character_count
-from pprint import pp
 
 def get_book_text(path_to_file):
     # Read the contents of a book from a file and return the text as a string.
